@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="origin" fetch="https://github.com/lindenis-org" />
+	<remote name="origin" fetch="https://github.com/redwineproof" />
 	<default revision="master" remote="origin" />
 	<project path="build" name="lindenis-v536-build"  >
 		<copyfile src="top_main.mk" dest="Makefile" />
