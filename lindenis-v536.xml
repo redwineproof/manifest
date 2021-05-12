@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="https://github.com/redwineproof" />
-	<default revision="master" remote="origin" />
+	<default revision="openhd-poc" remote="origin" />
 	<project path="build" name="lindenis-v536-build"  >
 		<copyfile src="top_main.mk" dest="Makefile" />
 		<copyfile src="rules.mk" dest="rules.mk" />
@@ -9,12 +9,12 @@
 	<project path="config" name="lindenis-v536-config"  >
 		<copyfile src="top_config.in" dest="Config.in" />
 	</project>
-	<project path="dl/dl0" name="lindenis-v536-dl0"  />
-	<project path="dl/dl1" name="lindenis-v536-dl1"  />
-	<project path="dl/dl2" name="lindenis-v536-dl2"  />
-	<project path="dl/dl3" name="lindenis-v536-dl3"  />
-	<project path="dl/dl4" name="lindenis-v536-dl4"  />
-	<project path="dl/dl5" name="lindenis-v536-dl5"  />
+	<project revision="master" path="dl/dl0" name="lindenis-v536-dl0"  />
+	<project revision="master" path="dl/dl1" name="lindenis-v536-dl1"  />
+	<project revision="master" path="dl/dl2" name="lindenis-v536-dl2"  />
+	<project revision="master" path="dl/dl3" name="lindenis-v536-dl3"  />
+	<project revision="master" path="dl/dl4" name="lindenis-v536-dl4"  />
+	<project revision="master" path="dl/dl5" name="lindenis-v536-dl5"  />
 	<project path="device" name="lindenis-v536-device"  />
 	<project path="lichee/brandy" name="lindenis-v536-lichee-brandy"  />
 	<project path="lichee/linux-4.9" name="lindenis-v536-lichee-linux-4.9"  />
